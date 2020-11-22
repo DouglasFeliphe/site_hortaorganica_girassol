@@ -1,7 +1,83 @@
+:root {
+    --cor__primaria: #61a647;
+    --cor__primaria2: #fff;
+    --cor__secundaria: #ffae52;
+    --cor__secundaria2: #fffaf2;
+    --cor__texto: #fff;
+}
+
+/*Tamanho padrão para tablets*/
+@media only screen and (max-width: 767px) {
+}
+
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 500px) {
+    body,
+    header .heading__text {
+        width: 100%;
+    }
+    header .heading__subtext,
+    .section__heading {
+        text-align: center;
+    }
+
+    .section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 88px 22px;
+    }
+
+    /* DIVIDER */
+    .section__divider,
+    .section__divider--green {
+        width: 13%;
+    }
+
+    /* --> CABEÇALHO */
+    header nav .nav__menu {
+        display: none;
+    }
+    header .container__heading {
+        height: fit-content;
+    }
+    header .container__heading b {
+        color: var(--cor__secundaria);
+    }
+    header .heading__text {
+        margin-top: 111px;
+        font-size: 2.8rem;
+    }
+    header .heading__subtext {
+        width: 75%;
+    }
+    /* <-- CABEÇALHO */
+
+    /* --> SOBRE */
+    section#sobre .section__container .container__item span {
+        width: 300%;
+        /* text-align: justify; */
+    }
+    section#sobre .section__container .container__item b {
+        color: var(--cor__primaria);
+        text-shadow: 1px 1px #333;
+    }
+    /* <-- SOBRE */
+
+    /* --> CONTATO */
+    /* <-- CONTATO */
+}
+
+/*Tamanho padrão para smartphones*/
 @media only screen and (max-width: 376px) {
-    body {
+    /* body {
         width: 100%;
         overflow-x: hidden;
+    }
+    section#sobre {
+        background: #000;
     }
     .section__container {
         flex-direction: column;
@@ -20,5 +96,5 @@
     header .heading__subtext {
         text-align: center;
         width: 50%;
-    }
+    } */
 }

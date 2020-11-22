@@ -25,7 +25,7 @@ header {
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-attachment: fixed;
-    /* background-position: right; */
+    /* background-position: left; */
 }
 
 /* --> MENU */
@@ -101,7 +101,7 @@ header .heading__subtext {
     width: 80%;
     opacity: 1;
     color: var(--cor__texto);
-    /* text-shadow: 2px 2px #333; */
+    text-shadow: 2px 2px #333;
 }
 
 header .container-rolldown .mouse {
@@ -160,7 +160,7 @@ section {
     border: none;
     background: var(--cor__secundaria);
 }
-.section__divider__green {
+.section__divider--green {
     width: 3%;
     height: 3px;
     margin-top: -11px;
@@ -172,6 +172,7 @@ section {
 }
 .section__subheading {
     color: #666;
+    text-align: center;
 }
 .container__item {
     display: flex;
@@ -236,8 +237,11 @@ section#contato {
     background: #fffaf2;
 }
 section#contato i {
-    font-size: xx-large;
-    color: var(--cor__secundaria);
+    font-size: 3rem;
+    /* color: var(--cor__primaria); */
+}
+section#contato .fa-whatsapp {
+    /* color: var(--cor__primaria); */
 }
 /* <-- SESSÃO CONTATO */
 
