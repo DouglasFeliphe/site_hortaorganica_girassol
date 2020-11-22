@@ -1,7 +1,10 @@
-[] menu seguir scroll
+[x] menu seguir scroll
 [x] menu sombreamento
-[] responsividade
+[] melhorar layout do texto do cabeçalho
+[x] responsividade
+  [x]texto 'nosso trabalho' expandindo largura
 [] imagens expandindo ao clicar
+ 
 dona hosana; 
  pegar whatsapp
  perguntar se tem instagram

@@ -1,0 +1,24 @@
+@media only screen and (max-width: 376px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    header .container__heading {
+        text-align: center;
+    }
+    header nav .nav__menu {
+        display: none;
+    }
+    header .heading__text {
+        font-size: 2.8rem;
+        opacity: 1;
+    }
+    header .heading__subtext {
+        text-align: center;
+        width: 50%;
+    }
+}
